@@ -1,0 +1,83 @@
+.JobItem-heading {
+  color: white;
+}
+.JobItem-bg-container {
+  padding: 10px;
+  background-color: #202020;
+  border-radius: 10px;
+  font-family: 'Roboto';
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+.JobItem-companyLogo {
+  width: 50px;
+  margin-right: 10px;
+}
+.JobItem-title {
+  color: white;
+  font-size: 15px;
+  margin: 0px;
+}
+.JobItem-title-container {
+  display: flex;
+  align-items: flex-start;
+}
+.JobItem-rating {
+  color: white;
+  margin: 0px;
+}
+.JobItem-location {
+  color: white;
+  font-size: 15px;
+  padding: 0px;
+  margin: 0px;
+  margin-right: 10px;
+}
+.JobItem-location-logo {
+  color: white;
+  width: 20px;
+  height: 20px;
+  margin-right: 3px;
+}
+.JobItem-location-type-container {
+  display: flex;
+  align-items: center;
+}
+.JobItem-location-salary-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.JobItem-star-logo {
+  color: #fbbf24;
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+}
+@media (min-width: 768px) {
+  .JobItem-bg-container {
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 90%;
+  }
+  .JobItem-companyLogo {
+    width: 60px;
+    margin-right: 20px;
+  }
+  .JobItem-title-container {
+    margin-bottom: 10px;
+  }
+  .JobItem-location {
+    margin-top: 10px;
+  }
+}
+.JobItem-star-container {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+.link {
+  text-decoration: none;
+}

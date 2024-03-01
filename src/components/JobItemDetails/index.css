@@ -1,0 +1,84 @@
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.JobsItemDetails-bg-container {
+  background-color: black;
+  min-height: 100vh;
+  width: 100vw;
+}
+.JobItemDetails-successView-container {
+  padding: 20px;
+}
+.JobItemDetails-successView-container2 {
+  background-color: #202020;
+  padding: 20px;
+  border-radius: 20px;
+}
+.JobItemDetails-companyLogo {
+  width: 50px;
+}
+.Description-container {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  justify-content: space-between;
+}
+.JobItem-location {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.skills {
+  color: white;
+  font-size: 20px;
+}
+.skills-img {
+  width: 30px;
+  margin-right: 5px;
+}
+.skilss-container {
+  display: flex;
+  width: 50%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.skills-bg-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.lifeAtCompany-image {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.similarJobs-heading {
+  font-size: 25px;
+  color: white;
+}
+
+@media (min-width: 768px) {
+  .skilss-container {
+    display: flex;
+    width: 30%;
+  }
+  .lifeAtCompany-paragraph {
+    width: 60%;
+    font-size: 20px;
+    line-height: 2;
+  }
+  .lifeAtCompany-image {
+    width: 35%;
+    border-radius: 5px;
+  }
+  .lifeAtCompany-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .jobItemDetails-similarJob-Container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

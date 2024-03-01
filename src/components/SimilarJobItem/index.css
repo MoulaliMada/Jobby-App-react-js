@@ -1,0 +1,9 @@
+.he {
+  color: white;
+}
+@media (min-width: 768px) {
+  .similart-job-Item {
+    width: 35%;
+    margin-right: 30px;
+  }
+}
